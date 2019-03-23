@@ -1,15 +1,15 @@
-#Diseño de sitios web
+# Diseño de sitios web
 Fase 3
 Comprensión: Configurar un repositorio con el SCV GIT y GITHUB
 
-#Presentado por:
+# Presentado por:
 John Jairo Martínez Nieto
 Código 80'170.712
 
-#Director:
+# Director:
 Josue Ignacio Ochoa
 
-#Institución
+# Institución
 Universidad Nacional Abierta y a Distancia – Unad
 Escuela de Ciencias Básicas, Tecnología e Ingeniería
 DISEÑOS DE SITIOS WEB - (301122A_611)
