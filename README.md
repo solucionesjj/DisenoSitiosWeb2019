@@ -1,6 +1,6 @@
 # Diseño de sitios web
-Fase 3
-Comprensión: Configurar un repositorio con el SCV GIT y GITHUB
+Fase 3<br>
+Creación del OVI<br>
 
 # Presentado por:
 John Jairo Martínez Nieto
