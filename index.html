@@ -10,14 +10,14 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-    <title>>> OVI :: PHP ::</title>
+    <title>:: OVI :: PHP ::</title>
 </head>
 
 <body>
     <div class="container">
         <div class="row">
-            <div class="col-3">
-                <ol>
+            <div class="col-3 small">
+                <ol class="">
                     <li>Para que sirve un servidor web</li>
                     <li>Instalación del servidor web</li>
                     <li>Verificación de la instalación php</li>
@@ -30,9 +30,102 @@
                 </ol>
             </div>
             <div class="col-6">
-
+                    <div class="accordion" id="accordionExample">
+                            <div class="card">
+                              <div class="card-header" id="headingOne">
+                                <h2 class="mb-0">
+                                  <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    Para que sirve un servidor web
+                                  </button>
+                                </h2>
+                              </div>
+                          
+                              <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                                <div class="card-body">
+                                  
+                                        a.	Un servidor web es un componente de software que permite la visualización de una aplicación o contenido mediante el uso de un explorador de internet. 
+                                        b.	Para este caso, el servidor web nos servirá para generar una aplicación que pueda ser desarrollada en la herramienta php y posteriormente visualizada mediante el uso de un explorador de internet.                                       
+                                </div>
+                              </div>
+                            </div>
+                            <div class="card">
+                              <div class="card-header" id="headingTwo">
+                                <h2 class="mb-0">
+                                  <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        Instalación del servidor web
+                                  </button>
+                                </h2>
+                              </div>
+                              <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                                <div class="card-body">
+                                        a.	Un servidor Web muy conocido y de distribución gratuita es Apache Web Server (https://httpd.apache.org/). Este servidor ha sido creado por la comunidad de software libre y ha sido mantenido y mejorado durante muchos años. Este servidor web tiene soporte para múltiples tecnologías, incluyendo la que vamos a usar, Php.
+                                        b.	Para realizar una instalación sin complicaciones, se debe acceder a una herramienta que tenga todo lo que necesitamos en un mismo instalador. Para este caso, contamos con diferentes herramientas todas muy eficientes y fáciles de utilizar como por ejemplo: Xampp, Wamp, Bitnami, Mamp, entre otras.
+                                        c.	Para este caso usaremos Xampp el cual contiene las herramientas necesarias para realizar nuestra actividad (Apache, Php, MariaDB (MySQL)) y adicional a ello contiene una aplicación que permite administrar y configurar fácilmente las aplicaciones instaladas.
+                                        d.	Video de como instalar Xampp: https://youtu.be/N6ENnaRotmo                                        
+                                </div>
+                              </div>
+                            </div>
+                            <div class="card">
+                              <div class="card-header" id="headingThree">
+                                <h2 class="mb-0">
+                                  <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                        Verificación de la instalación php
+                                  </button>
+                                </h2>
+                              </div>
+                              <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                                <div class="card-body">
+                                        a.	Antes de iniciar la verificación, por favor ejecute el servidor Xampp.
+                                        b.	Se debe crear un archivo llamado index.php, en el cual se debe colocar el siguiente código:
+                                        <pre>
+                                            <code>
+                                        <?
+                                        echo phpinfo();
+                                        ?>
+                                        </code>
+                                        </pre>
+                                        c.	El archivo creado se debe dejar en la carpeta que Xampp destinó como raíz del sitio web. Dentro de la raíz web se debe crear una carpeta con el objetivo de organizar mejor la información.
+                                        d.	Se debe abrir el navegador de Internet colocando la ruta localhost y la carpeta que se creó en el punto anterior, ejemplo: http://localhost/oviphp/
+                                        Al abrir la página se debe visualizar de la siguiente manera:
+                                        
+                                        
+                                </div>
+                              </div>
+                            </div>
+                          </div>
             </div>
             <div class="col-3">
+
+                    <h3>Nombre del Ovi:</h3>
+                    Vinculación de BD a una página con PHP
+                    
+                    <h3>Objetivo general:</h3> 
+                    Aprender a utilizar php para realizar conexiones a la base de datos MySQL y realizar las operaciones básicas con datos; Inserción, Consulta, Actualización y Eliminación.
+                    
+                    <h3>Información adicional:</h3>
+                    Apache Web Server (https://httpd.apache.org/)
+                    Video de como instalar Xampp: https://youtu.be/N6ENnaRotmo
+                    
+                    <h3>Autor: </h3>
+                    John J. Martinez
+                    Id: 80’170.712
+                    Ingeniería de sistemas
+                    CEAD JAG
+                    ECBTI
+                    UNAD
+                    
+                    <h3>Creado:</h3>
+                    Febrero/2019
+                    
+                    <h3>Visualizado:</h3> 
+                    51.200 veces
+                    
+                    Likes: 
+                    32.000 
+                    
+                    Dislikes: 
+                    900
+                    
 
             </div>
         </div>
